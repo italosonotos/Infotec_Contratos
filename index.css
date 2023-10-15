@@ -1,10 +1,76 @@
+:root{
+    --Roxo-Escuro:#1c1c2b;
+    --Verde-Claro:#b6de3e;
+    --Verde-Escuro:#73ad34;
+    --Branco:#ffffff;
+
+}
+
 *{
     margin: 0;
     padding: 0;
 }
 
-header{
-    width: 100%;
-    padding: 10px;
-    border: 1px solid black;    
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: var(--Roxo-Escuro);
+    
+}
+
+/*Alterações no cabeçalho*/
+
+img{ /*Logo infotec */
+    width: 200px;
+    height: 50px;
+}
+
+.logo, 
+.btnContrato{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    margin: 10px;
+}
+
+.logo{
+
+    justify-content: space-between;
+    padding: 0 10%; /* 0 para o top e button e o 10% tando para esquerda ou direita */
+}
+
+
+/* Alterações nos botões */
+
+.principal {
+
+    width: 90vw;
+    height: 80vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+#btnContrato{
+    width: 115px;
+}
+
+.btn{
+    width: 100px;
+    height: 30px;
+    font-weight: bold;
+
+    border: 2px solid var(--Verde-Claro);
+    border-radius: 10px;
+
+    background-color: var(--Roxo-Escuro);
+    color: var(--Branco);
+}
+
+.btn:hover{
+    border: 2px solid var(--Verde-Escuro);
+    background-color: var(--Branco);
+    color: var(--Roxo-Escuro);
 }
