@@ -36,7 +36,7 @@ img{ /*Logo infotec */
 .logo{
 
     justify-content: space-between;
-    padding: 0 10%; /* 0 para o top e button e o 10% tando para esquerda ou direita */
+    /* padding: 0 10%; 0 para o top e button e o 10% tando para esquerda ou direita */
 }
 
 
