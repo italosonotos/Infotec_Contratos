@@ -70,13 +70,26 @@ dialog{
     height: 35px;
 }
 
-.btn{
+#imagemContrato{
     width: 150px;
     height: 200px;
+    border-radius: 10px;
+}
+
+#imagemContrato:hover{
+
+    background-color: var(--Branco);
+    color: var(--Roxo-Escuro);
+}
+
+
+.btn{
+    width: 159px;
+    height: 205px;
     font-weight: bold;
 
-    border: 2px solid var(--Verde-Claro);
     border-radius: 10px;
+    border: none;
 
     background-color: var(--Roxo-Escuro);
     color: var(--Branco);
@@ -88,7 +101,3 @@ dialog{
     color: var(--Roxo-Escuro);
 }
 
-#hbo{
-    width: 150px;
-    height: 200px;
-}
