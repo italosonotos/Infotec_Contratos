@@ -30,7 +30,7 @@ img{ /*Logo infotec */
     flex-direction: row;
     align-items: center;
 
-    margin: 10px;
+    margin: 20px;
 }
 
 .logo{
@@ -39,13 +39,25 @@ img{ /*Logo infotec */
     /* padding: 0 10%; 0 para o top e button e o 10% tando para esquerda ou direita */
 }
 
+/*CSS Do PopUp*/
+
+dialog{
+    width: 500px;
+    height: 250px;
+
+    margin: 0 auto;
+    border-radius: 10px;
+    background-color: red;
+}
+
+
 
 /* Alterações nos botões */
 
 .principal {
 
-    width: 90vw;
-    height: 80vh;
+    width: 100vw;
+    height: 70vh;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -54,12 +66,13 @@ img{ /*Logo infotec */
 }
 
 #btnContrato{
-    width: 115px;
+    width: 160px;
+    height: 35px;
 }
 
 .btn{
-    width: 100px;
-    height: 30px;
+    width: 150px;
+    height: 200px;
     font-weight: bold;
 
     border: 2px solid var(--Verde-Claro);
@@ -73,4 +86,9 @@ img{ /*Logo infotec */
     border: 2px solid var(--Verde-Escuro);
     background-color: var(--Branco);
     color: var(--Roxo-Escuro);
+}
+
+#hbo{
+    width: 150px;
+    height: 200px;
 }
