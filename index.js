@@ -1,12 +1,12 @@
-const popUp = document.querySelector("dialog")
+//const popUp = document.querySelector("dialog")
 
 
-function infoPlay(){
+//function infoPlay(){
     
-    popUp.showModal()   
-}
+  //  popUp.showModal()   
+//}
 
-function btnClose(){
+//function btnClose(){
 
-    popUp.close()
-}
+  //  popUp.close()
+//}  
