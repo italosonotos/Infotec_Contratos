@@ -21,11 +21,9 @@ body{
 
 img{ /*Logo infotec */
     width: 200px;
-    height: 50px;
 }
 
-.logo, 
-.btnContrato{
+.logo{
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -107,46 +105,11 @@ a{
     transform: translateX(6px) scale(1.2);    
 }
 
-#btnContrato{
-    width: 160px;
-    height: 35px;
-
-    text-decoration: none;
-    background-color: var(--Branco);
-    color: var(--Roxo-Escuro);
-    border-radius: 10px;
-    border: none;
-}
-
-#btnContrato:hover{
-    background-color: var(--Verde-Claro);
-    color: var(--Branco);
-}
-
-
-
-/*Versão mobile*/
-
-@media screen and (max-width: 600px) {
-
-    img{ /*Logo infotec */
-        width: 125px;
-        height: 45px;
-    }
-
-    .principal{
-        display: grid;
-        margin-top: 60px;
-    }
-
-    .cta{
-        margin-left: 30px;
-    }
-}
-
+/*Botão do contrato completo*/
 .cta {
     width: 180px;
     height: 60px;
+    font-weight: bold;
     display: flex;
     padding: 11px 30px;
     margin-right: 50px;
@@ -224,5 +187,24 @@ a{
   
     100% {
       fill: var(--Verde-Escuro);
+    }
+}
+
+/*Versão mobile*/
+
+@media screen and (max-width: 600px) {
+
+    img{ /*Logo infotec */
+        width: 125px;
+        height: 45px;
+    }
+
+    .principal{
+        display: grid;
+        margin-top: 60px;
+    }
+
+    .cta{
+        margin-left: 30px;
     }
 }
