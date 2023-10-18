@@ -1,0 +1,94 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 62.5%;
+}
+
+body {
+    background: #1d1929;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    min-height: 100vh;
+    color: #fff;
+}
+
+/*-----ÁREA DE CABEÇALHO-----*/
+
+img {
+    width: 200px;
+}
+
+nav {
+    padding: 2rem 5rem 1rem;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    font-size: 2rem;
+    font-size: 2rem;
+}
+
+nav ul li button {
+    align-items: center;
+    font-size: 1.5rem;
+    padding: 0.8em 2em;
+    background-color: #000;
+    border: 3px solid #a9d03f;
+    border-radius: 1em;
+    font-weight: bolder;
+    transition: cubic-bezier(0.68, -0.55, 0.265, 1.55) 0.4s;
+    box-shadow: -5px 5px 0px 0px #a9d03f;
+    cursor: pointer;
+    color: #fff;
+}
+
+nav ul li button:hover {
+    transform: translate(5px, -5px);
+}
+
+/*-----CORPO-----*/
+
+#titulo h1{
+    font-size: 50px;
+    padding: 25px;
+}
+
+#btnContratos input{
+    padding: 30px;
+    width: 250px;
+    height: 150px;
+    border-radius: 25px;
+    margin: 25px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#btnContratos input:hover {
+    transform: translate(5px, -5px);
+    cursor: pointer;
+}
+
+/* CORPO - BOTÕES */
+
+#inbtnWtpm{
+    background-image: url(./imagens/watch_paramont.jpg);
+}
+
+#inbtnIp{
+    background-image: url(./imagens/infotecPlay.jpg);
+}
+
+#inbtnHbom{
+    background-image: url(./imagens/hbomax.jpg);
+}
+
+#inbtnIt{
+    background-image: url(./imagens/infotecTelecon.jpg);
+}
