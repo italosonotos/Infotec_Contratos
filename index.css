@@ -66,13 +66,24 @@ dialog{
 
 a{
     text-decoration: none;
+    position: relative;
+    top: -50%;
+    text-align: center;
+    color: red;
 }
-
 #imagemContrato{
     width: 150px;
     height: 200px;
     border-radius: 10px;
+
+}
+
+#hbo{
     
+    background-image: url(image/hbomax.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 #imagemContrato:hover{
@@ -143,18 +154,21 @@ a{
 }
   
 .span {
-    transform: skewX(15deg)
+    transform: skewX(15deg);
 }
   
 .second {
     margin-left: 30px;
     position: relative;
     top: 12%;
+    transform: rotate(87deg);
+    
 }
   
 .one {
     transition: 0.4s;
     transform: translateX(-60%);
+    
 }
   
 .two {
